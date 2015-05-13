@@ -2,15 +2,36 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background-color:black;
 }
-
-.white {color:white;}
-.center {text-align:center;}
-.heading {margin-top:75px; font-size:72px; font-weight:bolder;}
-.sub-heading {margin-top:25px; color:green; font-size:25px;}
-.sub-heading:hover {font-weight:bold; color:yellow;}
-
+.title {
+    font-size:24px;
+}
+.center {
+    text-align: center;
+}
+.heading {
+    margin-top: 75px;
+    font-size: 72px;
+    font-weight: bolder;
+}
+.sub-heading {
+    margin-top: 25px;
+    color: green;
+    font-size: 25px;
+}
+    .sub-heading:hover {
+        font-weight: bold;
+        color: yellow;
+    }
+.link-heading {
+    font-size: 24px;
+    color:white;
+}
 .chunk {
   min-height: 700px;
   padding-bottom: 50px;
   padding-top: 100px;
+}
+.slim {
+    max-width:400px;
+    margin-bottom:50px;
 }
