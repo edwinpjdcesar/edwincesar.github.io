@@ -4,6 +4,9 @@ body {
 }
 .title {
     font-size:24px;
+    color:white;
+    float:left;
+    margin-left:15px;
 }
 .center {
     text-align: center;
@@ -28,10 +31,10 @@ body {
 }
 .chunk {
   min-height: 700px;
-  padding-bottom: 50px;
-  padding-top: 100px;
 }
 .slim {
-    max-width:400px;
+    width:70%;
+    margin-left:auto;
+    margin-right:auto;
     margin-bottom:50px;
 }
