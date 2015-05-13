@@ -2,10 +2,14 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background-color:black;
 }
+.foot {
+    background-color:black;
+    height:300px;
+    bottom:0;
+}
 .title {
     font-size:24px;
     color:white;
-    float:left;
 }
 .center {
     text-align: center;
