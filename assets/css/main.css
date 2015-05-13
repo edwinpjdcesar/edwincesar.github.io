@@ -1,14 +1,26 @@
+/*
+
+
+    Edwin Patrick Cesar
+    edwinpjdcesar@gmail.com
+    edwincesar.com
+    main.css
+
+
+*/
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color:black;
 }
 .foot {
     background-color:black;
-    height:300px;
+    padding:15px;
+    height:250px;
     bottom:0;
 }
 .title {
-    font-size:24px;
+    font-size:72px;
     color:white;
 }
 .center {
@@ -33,11 +45,11 @@ body {
     color:white;
 }
 .nav-tabs {
-    font-size:18px;
+    font-size:24px;
 }
 .chunk {
   min-height: 700px;
-  margin-top:25px;
+  margin-top:50px;
   margin-bottom:100px;
 }
 .slim {
