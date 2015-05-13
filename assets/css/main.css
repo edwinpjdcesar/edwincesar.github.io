@@ -6,14 +6,13 @@ body {
     font-size:24px;
     color:white;
     float:left;
-    margin-left:15px;
 }
 .center {
     text-align: center;
 }
 .heading {
     margin-top: 75px;
-    font-size: 72px;
+    font-size: 96px;
     font-weight: bolder;
 }
 .sub-heading {
@@ -29,12 +28,16 @@ body {
     font-size: 24px;
     color:white;
 }
+.nav-tabs {
+    font-size:18px;
+}
 .chunk {
   min-height: 700px;
+  margin-top:25px;
   margin-bottom:100px;
 }
 .slim {
-    width:70%;
+    width:60%;
     margin-left:auto;
     margin-right:auto;
 }
