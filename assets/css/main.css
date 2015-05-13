@@ -1,4 +1,4 @@
-/*
+1/*
 
 
     Edwin Patrick Cesar
@@ -20,9 +20,13 @@ body {
     bottom:0;
 }
 .title {
-    font-size:72px;
+    font-size:96px;
     color:white;
 }
+    .title a {
+        text-decoration:none;
+        color:white;
+    }
 .center {
     text-align: center;
 }
