@@ -66,13 +66,16 @@ a, a:hover, a:visited {
     color:white;
 }
 .pic {
-    height:260px;
+    max-height:150px;
 }
 .big {
     font-size:36px;
 }
 .medium {
     font-size:24px;
+}
+.small {
+    font-size:12px;
 }
 .slim {
     width:60%;
