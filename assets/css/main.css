@@ -1,4 +1,4 @@
-1/*
+/*
 
 
     Edwin Patrick Cesar
@@ -12,15 +12,24 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color:black;
+  position:relative;
 }
-.foot {
+.body-content {
+  min-height: 700px;
+  margin-top:50px;
+  margin-bottom:50px;
+}
+.footer-content {
     background-color:black;
     padding:15px;
     height:250px;
     bottom:0;
 }
-.title {
-    font-size:96px;
+.space {
+    height:50px;
+}
+.bottom {
+    font-size:120px;
     color:white;
 }
     .title a {
@@ -50,11 +59,6 @@ body {
 }
 .nav-tabs {
     font-size:24px;
-}
-.chunk {
-  min-height: 700px;
-  margin-top:50px;
-  margin-bottom:100px;
 }
 .slim {
     width:60%;
