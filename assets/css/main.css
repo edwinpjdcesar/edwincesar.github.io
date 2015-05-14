@@ -67,7 +67,7 @@ a, a:hover, a:visited {
 }
 .pic {
     width:250px;
-    margin:25px;
+    padding:25px;
 }
 .big {
     font-size:36px;
@@ -88,11 +88,15 @@ a, a:hover, a:visited {
 }
 .lefty {
     float:left;
-    margin-left:25px;
+}
+.lefty-loosy {
+    margin-left:50px;
 }
 .righty {
     float:right;
-    margin-right:25px;
+}
+.righty-tighty {
+    margin-right:50px;
 }
 
 /* bootstrap edits */
