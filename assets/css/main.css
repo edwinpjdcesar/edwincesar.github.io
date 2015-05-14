@@ -89,13 +89,13 @@ a, a:hover, a:visited {
 .lefty {
     float:left;
 }
-.lefty-loosy {
+.to-left {
     margin-left:50px;
 }
 .righty {
     float:right;
 }
-.righty-tighty {
+.to-right {
     margin-right:50px;
 }
 
