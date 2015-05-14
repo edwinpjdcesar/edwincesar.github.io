@@ -66,7 +66,7 @@ a, a:hover, a:visited {
     color:white;
 }
 .pic {
-    max-height:150px;
+    width:50px;
 }
 .big {
     font-size:36px;
@@ -87,9 +87,11 @@ a, a:hover, a:visited {
 }
 .lefty {
     float:left;
+    margin-left:25px;
 }
 .righty {
     float:right;
+    margin-right:25px;
 }
 
 /* bootstrap edits */
@@ -99,4 +101,7 @@ a, a:hover, a:visited {
 }
 .list-group {
     margin-top:15px;
+}
+.list-group-item {
+    padding:5px;
 }
