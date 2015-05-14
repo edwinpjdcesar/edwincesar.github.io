@@ -63,6 +63,9 @@ body {
 .link {
     padding:10px;
 }
+.pic {
+    height:260px;
+}
 .big {
     font-size:36px;
 }
