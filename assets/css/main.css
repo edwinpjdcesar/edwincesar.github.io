@@ -14,6 +14,9 @@ body {
   background-color:black;
   position:relative;
 }
+a, a:hover, a:visited {
+    text-decoration:none;
+}
 .body-content {
   min-height: 700px;
   margin-top:50px;
@@ -29,6 +32,9 @@ body {
     padding-left:15px;
     padding-right:15px;
 }
+.big-space {
+    height:150px;
+}
 .space {
     height:50px;
 }
@@ -41,6 +47,9 @@ body {
     }
 .center {
     text-align: center;
+}
+.thick {
+    font-weight:bold;
 }
 .heading {
     margin-top: 75px;
@@ -60,15 +69,6 @@ body {
     font-size: 24px;
     color:white;
 }
-.link {
-    padding:10px;
-}
-.apps {
-    display:block;
-}
-    .apps a {
-        text-decoration:none;
-    }
 .pic {
     height:260px;
 }
