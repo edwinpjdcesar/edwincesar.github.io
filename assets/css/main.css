@@ -63,6 +63,12 @@ body {
 .link {
     padding:10px;
 }
+.apps {
+    display:block;
+}
+    .apps a {
+        text-decoration:none;
+    }
 .pic {
     height:260px;
 }
