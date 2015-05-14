@@ -25,6 +25,10 @@ body {
     height:250px;
     bottom:0;
 }
+.tab-content {
+    padding-left:15px;
+    padding-right:15px;
+}
 .space {
     height:50px;
 }
@@ -57,7 +61,10 @@ body {
     font-size: 24px;
     color:white;
 }
-.nav-tabs {
+.nav-big {
+    font-size:36px;
+}
+.nav-medium {
     font-size:24px;
 }
 .slim {
