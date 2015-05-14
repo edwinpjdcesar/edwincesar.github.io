@@ -96,7 +96,11 @@ a, a:hover, a:visited {
     float:right;
 }
 .to-right {
-    margin-right:50px;
+    margin-right:0px;
+}
+.equalizer {
+    width:auto;
+    height:auto;
 }
 
 /* bootstrap edits */
