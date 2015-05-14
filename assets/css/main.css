@@ -28,10 +28,6 @@ a, a:hover, a:visited {
     height:250px;
     bottom:0;
 }
-.tab-content {
-    padding-left:15px;
-    padding-right:15px;
-}
 .big-space {
     height:300px;
 }
@@ -82,4 +78,22 @@ a, a:hover, a:visited {
     width:60%;
     margin-left:auto;
     margin-right:auto;
+}
+.chop {
+    width:40%;
+}
+.lefty {
+    float:left;
+}
+.righty {
+    float:right;
+}
+
+/* bootstrap edits */
+.tab-content {
+    padding-left:15px;
+    padding-right:15px;
+}
+.list-group {
+    margin-top:15px;
 }
