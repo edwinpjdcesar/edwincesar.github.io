@@ -25,7 +25,7 @@ a, a:hover, a:visited, a:link, a:active {
 .footer-content {
     background-color:black;
     padding:15px;
-    height:300px;
+    height:500px;
     bottom:0;
 }
 .big-space {
@@ -101,6 +101,9 @@ a, a:hover, a:visited, a:link, a:active {
 .equalizer {
     width:auto;
     height:auto;
+}
+.bottom-up {
+    padding-bottom:15px;
 }
 
 /* bootstrap edits */
