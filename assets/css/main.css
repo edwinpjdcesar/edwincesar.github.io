@@ -97,6 +97,9 @@ a, a:hover, a:visited, a:link, a:active {
 .bottom-up {
     padding-bottom:25px;
 }
+.up-top {
+    margin-top:35px;
+}
 
 /* bootstrap edits */
 .tab-content {
