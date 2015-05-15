@@ -66,8 +66,7 @@ a, a:hover, a:visited, a:link, a:active {
     color:white;
 }
 .pic {
-    width:250px;
-    padding:25px;
+    width:500px;
 }
 .big {
     font-size:36px;
@@ -84,26 +83,19 @@ a, a:hover, a:visited, a:link, a:active {
     margin-right:auto;
 }
 .chop {
-    width:40%;
+    width:80%;
 }
-.lefty {
-    float:left;
+.right {
+    margin-right:50px;
 }
-.to-left {
+.left {
     margin-left:50px;
 }
-.righty {
-    float:right;
-}
-.to-right {
-    margin-right:0px;
-}
-.equalizer {
-    width:auto;
-    height:auto;
+.next {
+    display:inline-block;
 }
 .bottom-up {
-    padding-bottom:15px;
+    padding-bottom:25px;
 }
 
 /* bootstrap edits */
