@@ -12,8 +12,6 @@
 $(document).ready(function () {
 
     // scrollspy and smooth scroll
-    
-
     $('body').scrollspy({ target: '#theNav' });
 
     $('[data-spy="scroll"]').each(function () {
