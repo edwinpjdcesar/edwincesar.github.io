@@ -12,7 +12,7 @@
 $(document).ready(function () {
 
     // scrollspy and smooth scroll
-    $('a[href*=#][class*="link-heading smooth"]:not([href=#])').click(function () {
+    $('a[href*=#][class*="smooth"]:not([href=#])').click(function () {
         $('html, body').animate({
             scrollTop: $($(this).attr('href')).offset().top
         }, 500);
