@@ -102,7 +102,32 @@ a, a:hover, a:visited, a:link, a:active {
     margin-top:35px;
 }
 
+/* jquery demo */
+.canvas img {
+    height:100%;
+    width:100%;
+}
+.shirt-image {
+    max-width:110px;
+    max-height:140px;
+    height:100%;
+    width:100%;
+    position:absolute;
+    top:30%;
+    left:32%;
+}
+.image {
+    background-color:black;
+}
+.edit {
+    font-size:35px;
+}
+
+
 /* bootstrap edits */
+.well {
+    position:relative;
+}
 .tab-content {
     padding-left:15px;
     padding-right:15px;
