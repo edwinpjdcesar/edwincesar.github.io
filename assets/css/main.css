@@ -107,17 +107,26 @@ a, a:hover, a:visited, a:link, a:active {
     height:100%;
     width:100%;
 }
-.shirt-image {
-    max-width:110px;
-    max-height:140px;
+.canvas {
+    position:relative;
+}
+.image-space {
     height:100%;
-    width:100%;
+    width:60%;
     position:absolute;
-    top:30%;
-    left:32%;
+    left:19%;
+    top:0;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:30px;
+    padding-bottom:30px;
 }
 .image {
-    background-color:black;
+    background-color:yellow;
+    max-width:190px;
+    max-height:220px;
+    min-width:30px;
+    min-height:60px;
 }
 .edit {
     font-size:35px;

@@ -30,7 +30,7 @@ $(document).ready(function () {
     //  image draggable within canvas
     $(function () {
         $(".drag").draggable({
-            containment: $('.canvas')
+            containment: $('.image-space')
         });
     });
     //  resize image
@@ -43,6 +43,13 @@ $(document).ready(function () {
         it.css({ 'width': '+=20', 'height': '+=20' });
     });
    
+    //  change shirt type
+    $('#ts').click(function () {
+        $('.shirt').attr('src', 'https://cloud.githubusercontent.com/assets/10873565/7744091/1215600e-ff66-11e4-9756-b0ccf4993f24.png');
+    });
 
+    $('#hd').click(function () {
+        $('.shirt').attr('src', 'https://cloud.githubusercontent.com/assets/10873565/7764481/be19c050-0017-11e5-882a-a8ffab6cf6d5.png');
+    });
 });
 
