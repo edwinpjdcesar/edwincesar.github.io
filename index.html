@@ -184,7 +184,7 @@
                     <li role="presentation"><a href="#php" aria-controls="php" role="tab" data-toggle="tab"> PHP </a></li>
                 </ul>
                 <div class="tab-content">
-                    <div role="tabpanel" class="tab-pane fade" id="html">
+                    <div role="tabpanel" class="tab-pane fade in active" id="html">
                         <br />
                         <div class="well well-lg animated">
                             <img class="img-responsive" src="https://cloud.githubusercontent.com/assets/10873565/7627860/98506496-f9e1-11e4-9ac4-fe7c321096f3.PNG" />
@@ -197,30 +197,35 @@
                             <img class="next img-responsive" src="https://cloud.githubusercontent.com/assets/10873565/7646192/ab7259c2-fa85-11e4-9b84-81630c04f5bc.PNG" />
                         </div>
                     </div>
-                    <div role="tabpanel" class="tab-pane fade in active" id="jquery">
+                    <div role="tabpanel" class="tab-pane fade" id="jquery">
                         <br />
+                        <div class="col-md-5">
+                            <br />
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    You know what?
+                                </div>
+                                <div class="panel-body">
+                                    This simple demo shirt designer sucks. Want to see the actual project? 
+                                    <p>Contact edwinpjdcesar@gmail.com for more information.</p>
+                                </div>
+                            </div>
+                            <br />
+                            <input type="file" accept="image/*" id="upload" />
+                        </div>
                         <div class="col-md-7">
-                            <div class="well well-lg">
+                            <div class="well well-well well-lg">
                                 <div class="canvas">
                                     <div class="image-space">
-                                        <img class="image drag" src="" />
+                                        <img class="image drag" src="https://cloud.githubusercontent.com/assets/10873565/7782029/a7ce1c34-00cf-11e5-94f2-695172c8bca4.png" />
                                     </div>
                                     <img class="shirt" src="https://cloud.githubusercontent.com/assets/10873565/7744091/1215600e-ff66-11e4-9756-b0ccf4993f24.png" />
                                 </div>
                                 <div class="btn-group">
-                                    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-plus edit bigger"></span></button>
-                                    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-minus edit smaller"></span></button>
+                                    <button type="button" class="btn btn-default bigger"><span class="glyphicon glyphicon-plus edit"></span></button>
+                                    <button type="button" class="btn btn-default smaller"><span class="glyphicon glyphicon-minus edit"></span></button>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-mid-5">
-                            <div class="">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-default" id="ts">T-Shirt</button>
-                                    <button type="button" class="btn btn-default" id="hd">Hoodie</button>
-                                </div>
-                            </div>
-                            <div class="">File:</div>
                         </div>
                     </div>
                     <div role="tabpanel" class="tab-pane fade" id="php">
