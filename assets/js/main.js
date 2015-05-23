@@ -30,8 +30,10 @@ $(document).ready(function () {
     }).on('mouseleave', function () {
         $(this).carousel('cycle');
     });
-    $('.carousel').tooltip({
-        'delay': { show: 5000, hide: 3000 }
+
+    $('#sql-examples').on('slide.bs.carousel', function () {
+        //  current issue
+        
     });
 
     //      jquery demo
