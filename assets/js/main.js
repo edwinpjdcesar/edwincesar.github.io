@@ -24,6 +24,15 @@ $(document).ready(function () {
         }, 500);
         return false;
     });
+    //  carousel pause
+    $('.carousel').on('mouseenter', function () {
+        $(this).carousel('pause');
+    }).on('mouseleave', function () {
+        $(this).carousel('cycle');
+    });
+    $('.carousel').tooltip({
+        'delay': { show: 5000, hide: 3000 }
+    });
 
     //      jquery demo
     //  image draggable within canvas
