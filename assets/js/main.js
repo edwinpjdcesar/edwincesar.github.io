@@ -31,11 +31,6 @@ $(document).ready(function () {
         $(this).carousel('cycle');
     });
 
-    $('#sql-examples').on('slide.bs.carousel', function () {
-        //  current issue
-        
-    });
-
     //      jquery demo
     //  image draggable within canvas
     $(function () {
