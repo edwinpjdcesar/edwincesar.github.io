@@ -11,6 +11,8 @@
 
 $(document).ready(function () {
 
+    //$('.navigations').fadeIn('slow');
+
     //  scrollspy
     $('body').scrollspy({ target: '#theNav' });
 
@@ -31,39 +33,14 @@ $(document).ready(function () {
         $(this).carousel('cycle');
     });
 
-    //      jquery demo
-    //  image draggable within canvas
-    $(function () {
-        $(".drag").draggable({
-            containment: $('.image-space')
-        });
-    });
-    //  resize image
-    $(".smaller").click(function () {
-        var it = $(".image");
-        it.css({ 'width': '-=20', 'height': '-=20' });
-    });
-    $(".bigger").click(function () {
-        var it = $(".image");
-        it.css({ 'width': '+=20', 'height': '+=20' });
-    });
-   
-    //  upload another image
-    function readURL(input) {
-        if (input.files && input.files[0]) {
-            var reader = new FileReader();
+    //  pretty colors
+    spectrum();
 
-            reader.onload = function (e) {
-                $('.image').attr('src', e.target.result);
-            }
-
-            reader.readAsDataURL(input.files[0]);
-        }
+    function spectrum() {
+        var hue = 'rgb(' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ')';
+        $('.heading').animate({ color: hue }, 2500);
+        spectrum();
     }
-
-    $("#upload").change(function () {
-        readURL(this);
-    });
 
 });
 
