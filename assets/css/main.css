@@ -18,6 +18,7 @@ a, a:hover, a:visited, a:link, a:active {
 }
 .body-content {
   min-height: 700px;
+  margin-top:50px;
   margin-bottom:50px;
 }
 .footer-content {
@@ -27,14 +28,13 @@ a, a:hover, a:visited, a:link, a:active {
     bottom:0;
 }
 .big-space {
-    height:300px;
+    margin-top:600px;
 }
 .space {
-    padding-top:30px;
-    height:100px;
+    padding-top:130px;
 }
 .small-space {
-    height:70px;
+    padding-top:100px;
 }
 .bottom {
     font-size:120px;
@@ -92,18 +92,19 @@ a, a:hover, a:visited, a:link, a:active {
 .lefty {
     margin-left:50px;
 }
-.next {
-    display:inline-block;
-}
 .bottom-up {
     padding-bottom:25px;
 }
 .up-top {
     margin-top:35px;
 }
-
-/* sql demo */
-
+.wide {
+    max-height:400px;
+    width:auto;
+}
+.plump {
+    padding-right:25px;
+}
 
 /* jquery demo */
 .canvas img {
